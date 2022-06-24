@@ -12,7 +12,9 @@
 		8DB3071B2866341000AD15E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3071A2866341000AD15E4 /* ViewController.swift */; };
 		8DB307202866341100AD15E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB3071F2866341100AD15E4 /* Assets.xcassets */; };
 		8DB307232866341100AD15E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DB307212866341100AD15E4 /* LaunchScreen.storyboard */; };
-		8DB3072C286637BD00AD15E4 /* StocksScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3072B286637BD00AD15E4 /* StocksScreen.swift */; };
+		8DB3072E286649B200AD15E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3072D286649B200AD15E4 /* ContentView.swift */; };
+		8DB3073028664B5700AD15E4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3072F28664B5700AD15E4 /* LoadingView.swift */; };
+		8DB307322866553500AD15E4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB307312866553500AD15E4 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +25,9 @@
 		8DB3071F2866341100AD15E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DB307222866341100AD15E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DB307242866341100AD15E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DB3072B286637BD00AD15E4 /* StocksScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksScreen.swift; sourceTree = "<group>"; };
+		8DB3072D286649B200AD15E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DB3072F28664B5700AD15E4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		8DB307312866553500AD15E4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +74,9 @@
 		8DB3072A2866376D00AD15E4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8DB3072B286637BD00AD15E4 /* StocksScreen.swift */,
+				8DB3072D286649B200AD15E4 /* ContentView.swift */,
+				8DB3072F28664B5700AD15E4 /* LoadingView.swift */,
+				8DB307312866553500AD15E4 /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -145,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DB3072C286637BD00AD15E4 /* StocksScreen.swift in Sources */,
 				8DB3071B2866341000AD15E4 /* ViewController.swift in Sources */,
+				8DB307322866553500AD15E4 /* MapView.swift in Sources */,
 				8DB307172866341000AD15E4 /* AppDelegate.swift in Sources */,
+				8DB3073028664B5700AD15E4 /* LoadingView.swift in Sources */,
+				8DB3072E286649B200AD15E4 /* ContentView.swift in Sources */,
 				8DB307192866341000AD15E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
