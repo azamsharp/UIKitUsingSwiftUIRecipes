@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D6162E1286793E800504F15 /* RatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6162E0286793E800504F15 /* RatingsView.swift */; };
+		8D6162E32868B91300504F15 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6162E22868B91300504F15 /* LoginScreen.swift */; };
+		8D6162E52868CB4900504F15 /* backup in Resources */ = {isa = PBXBuildFile; fileRef = 8D6162E42868CB4900504F15 /* backup */; };
+		8D6162E82869EDFA00504F15 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6162E72869EDFA00504F15 /* CounterViewController.swift */; };
+		8D6162EA2869F32400504F15 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6162E92869F32400504F15 /* CounterView.swift */; };
+		8D6162EC286A01A100504F15 /* DonutListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6162EB286A01A100504F15 /* DonutListViewController.swift */; };
+		8D6162EF286A01D600504F15 /* Donut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6162EE286A01D600504F15 /* Donut.swift */; };
+		8D6162F1286A023100504F15 /* DonutCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6162F0286A023100504F15 /* DonutCellView.swift */; };
 		8DB307172866341000AD15E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB307162866341000AD15E4 /* AppDelegate.swift */; };
 		8DB307192866341000AD15E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB307182866341000AD15E4 /* SceneDelegate.swift */; };
 		8DB3071B2866341000AD15E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3071A2866341000AD15E4 /* ViewController.swift */; };
@@ -15,9 +23,18 @@
 		8DB3072E286649B200AD15E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3072D286649B200AD15E4 /* ContentView.swift */; };
 		8DB3073028664B5700AD15E4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3072F28664B5700AD15E4 /* LoadingView.swift */; };
 		8DB307322866553500AD15E4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB307312866553500AD15E4 /* MapView.swift */; };
+		8DB30734286656A700AD15E4 /* MapViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB30733286656A700AD15E4 /* MapViewScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D6162E0286793E800504F15 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
+		8D6162E22868B91300504F15 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		8D6162E42868CB4900504F15 /* backup */ = {isa = PBXFileReference; lastKnownFileType = text; path = backup; sourceTree = "<group>"; };
+		8D6162E72869EDFA00504F15 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		8D6162E92869F32400504F15 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		8D6162EB286A01A100504F15 /* DonutListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutListViewController.swift; sourceTree = "<group>"; };
+		8D6162EE286A01D600504F15 /* Donut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donut.swift; sourceTree = "<group>"; };
+		8D6162F0286A023100504F15 /* DonutCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutCellView.swift; sourceTree = "<group>"; };
 		8DB307132866341000AD15E4 /* UIKitWithSwiftUIRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitWithSwiftUIRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB307162866341000AD15E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DB307182866341000AD15E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +45,7 @@
 		8DB3072D286649B200AD15E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DB3072F28664B5700AD15E4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		8DB307312866553500AD15E4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		8DB30733286656A700AD15E4 /* MapViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D6162E62869EDEC00504F15 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8DB3071A2866341000AD15E4 /* ViewController.swift */,
+				8D6162E72869EDFA00504F15 /* CounterViewController.swift */,
+				8D6162EB286A01A100504F15 /* DonutListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8D6162ED286A01CC00504F15 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8D6162EE286A01D600504F15 /* Donut.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8DB3070A2866341000AD15E4 = {
 			isa = PBXGroup;
 			children = (
@@ -60,13 +96,15 @@
 		8DB307152866341000AD15E4 /* UIKitWithSwiftUIRecipes */ = {
 			isa = PBXGroup;
 			children = (
+				8D6162ED286A01CC00504F15 /* Models */,
+				8D6162E62869EDEC00504F15 /* Controllers */,
 				8DB3072A2866376D00AD15E4 /* Views */,
 				8DB307162866341000AD15E4 /* AppDelegate.swift */,
 				8DB307182866341000AD15E4 /* SceneDelegate.swift */,
-				8DB3071A2866341000AD15E4 /* ViewController.swift */,
 				8DB3071F2866341100AD15E4 /* Assets.xcassets */,
 				8DB307212866341100AD15E4 /* LaunchScreen.storyboard */,
 				8DB307242866341100AD15E4 /* Info.plist */,
+				8D6162E42868CB4900504F15 /* backup */,
 			);
 			path = UIKitWithSwiftUIRecipes;
 			sourceTree = "<group>";
@@ -77,6 +115,11 @@
 				8DB3072D286649B200AD15E4 /* ContentView.swift */,
 				8DB3072F28664B5700AD15E4 /* LoadingView.swift */,
 				8DB307312866553500AD15E4 /* MapView.swift */,
+				8DB30733286656A700AD15E4 /* MapViewScreen.swift */,
+				8D6162E0286793E800504F15 /* RatingsView.swift */,
+				8D6162E22868B91300504F15 /* LoginScreen.swift */,
+				8D6162E92869F32400504F15 /* CounterView.swift */,
+				8D6162F0286A023100504F15 /* DonutCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -140,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DB307232866341100AD15E4 /* LaunchScreen.storyboard in Resources */,
+				8D6162E52868CB4900504F15 /* backup in Resources */,
 				8DB307202866341100AD15E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,11 +196,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DB3071B2866341000AD15E4 /* ViewController.swift in Sources */,
+				8D6162EC286A01A100504F15 /* DonutListViewController.swift in Sources */,
 				8DB307322866553500AD15E4 /* MapView.swift in Sources */,
+				8D6162E32868B91300504F15 /* LoginScreen.swift in Sources */,
 				8DB307172866341000AD15E4 /* AppDelegate.swift in Sources */,
+				8DB30734286656A700AD15E4 /* MapViewScreen.swift in Sources */,
+				8D6162E82869EDFA00504F15 /* CounterViewController.swift in Sources */,
+				8D6162EA2869F32400504F15 /* CounterView.swift in Sources */,
 				8DB3073028664B5700AD15E4 /* LoadingView.swift in Sources */,
 				8DB3072E286649B200AD15E4 /* ContentView.swift in Sources */,
+				8D6162EF286A01D600504F15 /* Donut.swift in Sources */,
+				8D6162F1286A023100504F15 /* DonutCellView.swift in Sources */,
 				8DB307192866341000AD15E4 /* SceneDelegate.swift in Sources */,
+				8D6162E1286793E800504F15 /* RatingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

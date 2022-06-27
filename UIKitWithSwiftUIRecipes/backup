@@ -1,0 +1,63 @@
+
+//
+//  ViewController.swift
+//  UIKitWithSwiftUIRecipes
+//
+//  Created by Mohammad Azam on 6/24/22.
+//
+
+import UIKit
+import SwiftUI
+import Combine
+
+class RatingObserver: ObservableObject {
+    @Published var rating: Int?
+}
+
+struct WrappedRatingView: View {
+    @ObservedObject var ratingObserver: RatingObserver
+    
+    var body: some View {
+        let _ = Self._printChanges()
+        RatingView(rating: $ratingObserver.rating)
+    }
+}
+
+class ViewController: UIViewController {
+
+    let ratingObserver = RatingObserver()
+    var cancellable: AnyCancellable?
+    
+    lazy var ratingLabel: UILabel = {
+        
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        return label
+        
+    }()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.backgroundColor = .white
+    
+        let hostingController = UIHostingController(rootView: WrappedRatingView(ratingObserver: ratingObserver))
+        
+        self.cancellable = ratingObserver.$rating.sink { rating in
+            print(rating)
+        }
+        
+        guard let ratingsView = hostingController.view else { return }
+        self.addChild(hostingController)
+        
+        self.view.addSubview(ratingsView)
+        
+        // add constraints on the ratings view
+        
+        ratingsView.translatesAutoresizingMaskIntoConstraints = false
+        ratingsView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
+        ratingsView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
+        
+    }
+
+}
+
